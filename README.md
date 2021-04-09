@@ -1,16 +1,8 @@
-# hometask_2
+# Second task is to develop a contacts list page. 
 
-A new Flutter project.
+Each contact consists of 3 parts:
+- User name
+- Company name
+- Icon with photo
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Users should be divided into blocks by last name. Click on the left part of a row should “add” the user to favourites. That means the user should be marked with a star / heart icon.
