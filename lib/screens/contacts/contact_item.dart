@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hometask_2/repository/contacts.dart';
 import 'package:hometask_2/screens/contacts/contact_info.dart';
 import 'package:hometask_2/screens/contacts/contact_picture.dart';
+import 'package:hometask_2/screens/details/contact_details.dart';
 
 class ContactItem extends StatelessWidget {
   final id;
@@ -9,6 +10,8 @@ class ContactItem extends StatelessWidget {
   final company;
   final image;
   final favorite;
+  final phone;
+  final bio;
   final Function updateContacts;
 
   const ContactItem(
@@ -18,6 +21,8 @@ class ContactItem extends StatelessWidget {
       this.company,
       this.image,
       this.favorite,
+      this.phone,
+      this.bio,
       this.updateContacts})
       : super(key: key);
 
@@ -51,7 +56,19 @@ class ContactItem extends StatelessWidget {
           ),
         ),
         onTap: () {
-          print("tapped $name");
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+                builder: (context) => ContactDetails(
+                      id: id,
+                      name: name,
+                      company: company,
+                      image: image,
+                      phone: phone,
+                      bio: bio,
+                      updateContacts: updateContacts,
+                    )),
+          );
         },
       ),
     );

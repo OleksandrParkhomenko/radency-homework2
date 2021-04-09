@@ -6,6 +6,8 @@ var contacts = [
     'image':
         'https://p0.piqsels.com/preview/511/597/262/male-portrait-boy-young.jpg',
     'favorite': true,
+    'phone': '+380953246364',
+    'bio': '',
   },
   {
     'id': 2,
@@ -13,6 +15,8 @@ var contacts = [
     'company': 'Apple Inc.',
     'image': null,
     'favorite': false,
+    'phone': '+380954562323',
+    'bio': '',
   },
   {
     'id': 3,
@@ -21,6 +25,8 @@ var contacts = [
     'image':
         'https://cdn.pixabay.com/photo/2019/05/18/07/07/portrait-4211341_1280.jpg',
     'favorite': true,
+    'phone': '+380954562342',
+    'bio': '',
   },
   {
     'id': 4,
@@ -29,6 +35,8 @@ var contacts = [
     'image':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2T0bXn3BpF9hA8Z3Es7fpsN1ADxu5aNszFw&usqp=CAU',
     'favorite': false,
+    'phone': '+380954562342',
+    'bio': '',
   },
   {
     'id': 5,
@@ -37,6 +45,8 @@ var contacts = [
     'image':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM0_Qa8KVOmgcIeWuzU4eqzhIE-b_Xy3G47g&usqp=CAU',
     'favorite': true,
+    'phone': '+380954562342',
+    'bio': '',
   },
   {
     'id': 6,
@@ -44,6 +54,8 @@ var contacts = [
     'company': 'Dupont Tech.',
     'image': null,
     'favorite': false,
+    'phone': '+380954562342',
+    'bio': '',
   },
   {
     'id': 7,
@@ -52,6 +64,8 @@ var contacts = [
     'image':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_oSVaUa1OjHBYvSIOFAIaA1bilSj0sxlYJA&usqp=CAU',
     'favorite': true,
+    'phone': '+380954562342',
+    'bio': '',
   },
   {
     'id': 8,
@@ -60,6 +74,8 @@ var contacts = [
     'image':
         'https://p2.piqsels.com/preview/264/855/740/man-male-portrait-face.jpg',
     'favorite': false,
+    'phone': '+380954523423',
+    'bio': '',
   },
   {
     'id': 9,
@@ -68,5 +84,7 @@ var contacts = [
     'image':
         'https://c0.anyrgb.com/images/703/997/full-frame-selfportrait-person-face-human-man-male-light-guilt-grey-model-thumbnail.jpg',
     'favorite': false,
+    'phone': '+380954623423',
+    'bio': '',
   },
 ];

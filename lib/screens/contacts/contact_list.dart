@@ -47,6 +47,8 @@ class _ContactListState extends State<ContactList> {
         company: contact['company'],
         image: contact['image'],
         favorite: contact['favorite'],
+        phone: contact['phone'],
+        bio: contact['bio'],
         updateContacts: _udpateContacts,
       ));
     }
